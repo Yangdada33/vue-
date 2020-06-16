@@ -18,6 +18,11 @@ const router = new VueRouter({
       path: '/index',
       name: 'Index',
       component: resolve => require(['@/page/Index.vue'], resolve)
+    },
+    {
+      path: '/authentication',
+      name: 'Authentication',
+      component: resolve => require(['@/page/Authentication.vue'], resolve)
     }
 
   ]
